@@ -301,7 +301,7 @@ Central to the project, we are collecting your stories, voices, and ideas here. 
 
 <script>
 $(document).ready(function() {
- $('#ytplaylist').load('/html/yt.html');
+ $('#ytplaylist').load('html/yt.html');
 });
 </script>
 
