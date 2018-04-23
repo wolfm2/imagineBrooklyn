@@ -188,7 +188,7 @@
                 $(this).parent().addClass('spidochetube_current');
 
                 $('html, body').animate({
-                    scrollTop: $('#spidochetube_player').offset().top
+                    /* scrollTop: $('#spidochetube_player').offset().top  MW */
                 }, scroll_duration, function(){
                     $('#spidochetube_player iframe').attr('src' , next_video_url);
                 });
